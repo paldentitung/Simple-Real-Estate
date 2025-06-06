@@ -4,7 +4,7 @@ import { Link } from "react-router-dom";
 const Whattobuy = () => {
     return (
         <>
-            <div className="w-full h-auto md:h-[60vh]">
+            <div className="w-full h-auto">
                 <div className="sub-container px-[5%] py-[10%] flex flex-col lg:gap-[60px] ">
                     <div className="flex justify-center items-center">
                         <span className="text-4xl">
