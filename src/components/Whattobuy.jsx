@@ -5,14 +5,16 @@ const Whattobuy = () => {
     return (
         <>
             <div className="w-full h-auto">
+                {/* sub container */}
                 <div className="sub-container px-[5%] py-[10%] flex flex-col lg:gap-[60px] ">
                     <div className="flex justify-center items-center">
-                        <span className="text-4xl">
+                        <span className="text-4xl" data-aos="fade-up" data-aos-duration="500">
                             WHAT ARE YOU LOOKING FOR ?
                         </span>
                     </div>
-                    <div className="flex flex-col md:flex-row w-full">
-                        <div className="buy-card  lg:w-1/2 relative">
+                    {/* cards */}
+                    <div className="flex flex-col md:flex-row w-full" >
+                        <div className="buy-card  lg:w-1/2 relative" data-aos="fade-right" data-aos-duration="1000">
                             <div className="img-container ">
                                 <img
                                     src={Buy}
@@ -30,7 +32,7 @@ const Whattobuy = () => {
                             </div>
                         </div>
 
-                        <div className="rent-card lg:w-1/2 relative">
+                        <div className="rent-card lg:w-1/2 relative" data-aos="fade-left" data-aos-duration="1500">
                             <div className="img-container ">
                                 <img
                                     src={Rent}

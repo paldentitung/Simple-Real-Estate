@@ -5,18 +5,18 @@ import image4 from '../assets/images/15066.avif';
 
 const Properties = () => {
     return (
-        <div className="h-auto lg:h-[80vh]">
-            <div className="sub-container py-[5%] px-[10%] flex flex-col gap-7">
+        <div className="h-auto ">
+            <div className="sub-container py-[5%] px-4 sm:px-[10%] flex flex-col gap-7">
                 {/* Title */}
-                <div className="title flex flex-col justify-center items-center gap-7">
-                    <span className="text-2xl md:text-4xl opacity-50">NEW PROPERTIES</span>
-                    <h1 className="md:text-3xl">For Sale</h1>
+                <div className="title flex flex-col justify-center items-center gap-7 text-center">
+                    <span className="text-2xl md:text-4xl opacity-50" data-aos="fade-up">NEW PROPERTIES</span>
+                    <h1 className="md:text-3xl" data-aos="fade-down" data-aos-duration="500">For Sale</h1>
                 </div>
 
                 {/* Cards */}
-                <div className="card-container grid grid-cols-1 gap-7 md:grid-cols-2 lg:grid-cols-4 lg:gap-[15px]">
+                <div className="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-7 lg:gap-[15px]">
                     {/* Card 1 */}
-                    <div className="card flex flex-col min-w-[300px] min-h-[400px] w-[350px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105">
+                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105" data-aos="fade-up" data-aos-duration="500">
                         <div className="card-img w-full h-1/2 relative">
                             <img src={image1} alt="" className="w-full h-full object-cover" />
                             <span className="absolute bottom-0 bg-red-600 py-1 px-3 text-white">Buy</span>
@@ -36,7 +36,7 @@ const Properties = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="card flex flex-col min-w-[300px] min-h-[400px] w-[350px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105">
+                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105" data-aos="fade-up" data-aos-duration="1000">
                         <div className="card-img w-full h-1/2 relative">
                             <img src={image2} alt="" className="w-full h-full object-cover" />
                             <span className="absolute bottom-0 bg-red-600 py-1 px-3 text-white">Buy</span>
@@ -56,7 +56,7 @@ const Properties = () => {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="card flex flex-col min-w-[300px] min-h-[400px] w-[350px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105">
+                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105" data-aos="fade-up" data-aos-duration="1500">
                         <div className="card-img w-full h-1/2 relative">
                             <img src={image3} alt="" className="w-full h-full object-cover" />
                             <span className="absolute bottom-0 bg-red-600 py-1 px-3 text-white">Buy</span>
@@ -76,7 +76,7 @@ const Properties = () => {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="card flex flex-col min-w-[300px] min-h-[400px] w-[350px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105">
+                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105" data-aos="fade-up" data-aos-duration="2000">
                         <div className="card-img w-full h-1/2 relative">
                             <img src={image4} alt="" className="w-full h-full object-cover" />
                             <span className="absolute bottom-0 bg-red-600 py-1 px-3 text-white">Buy</span>

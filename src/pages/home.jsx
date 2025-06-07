@@ -5,17 +5,17 @@ import Properties from "../components/Properties";
 import ContactDetails from "../components/ContactDetails";
 import Contact from "../components/Contact";
 import Footer from "../components/Footer";
-const Home = ()=> {
+const Home = () => {
     return (
         <>
-       <Header/>
-       <Hero/>
-       <Whattobuy/>
-       <Properties/>
-       <ContactDetails/>
-       <Contact/>
-       <Footer/>
-           </>
-    )
-}
+            {/* no header */}
+            <Hero />
+            <Whattobuy />
+            <Properties />
+            {/* no contact */}
+
+            {/* no footer */}
+        </>
+    );
+};
 export default Home;

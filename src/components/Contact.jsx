@@ -2,12 +2,12 @@ const Contact = () => {
     return (
         <>
             {/* main container */}
-            <div className="w-full mt-[50px] md:h-[80vh] bg-blue-950 text-white">
+            <div className="w-full h-auto mt-[50px] md:h-[80vh]  lg:h-[100vh] bg-blue-950 text-white">
                 {/* sub container */}
-                <div className="flex justify-center items-center p-[10%] ">
+                <div className="flex justify-center items-center p-[10%] " data-aos="fade-down">
                     <div className="grid grid-cols-1 gap-7 md:grid-cols-2">
                         {/* content 1 */}
-                        <div className="flex flex-col lg:w-1/2">
+                        <div className="flex flex-col lg:w-1/2" data-aos="fade-right" data-aos-duration="1000">
                             <div className="flex flex-col md:mb-[60px]">
                                 <span>FIND YOUR</span>
                                 <span> NEXT HOME</span>
@@ -22,7 +22,7 @@ const Contact = () => {
                         </div>
                         {/* content 2 */}
 
-                        <div>
+                        <div datt-aos="fade-right" data-aos-duration="2000">
                             <div>CONTACT US</div>
                             <form action="" className="flex flex-col gap-8">
                                 <div className="flex flex-col gap-3 md:flex-row">

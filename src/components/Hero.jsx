@@ -3,10 +3,12 @@ const Hero = () => {
     return (
         <>
             <div className="hero-section relative w-full h-[80vh]">
-                <div className="hero-img h-[80vh">
+                {/* hero image */}
+                <div className="hero-img h-[80vh" data-aos="fade">
                     <img src={hero} alt="" className="brightness-60 w-full h-[80vh] object-cover" />
                 </div>
-                <div className="hero-content absolute top-[50%] left-[50%] text-white -translate-x-[50%] -translate-y-[50%] flex flex-col justify-center items-center gap-3">
+                {/* hero content */}
+                <div className="hero-content absolute top-[50%] left-[50%] text-white -translate-x-[50%] -translate-y-[50%] flex flex-col justify-center items-center gap-3" data-aos="fade-down">
                     <div className="hero-title">
                         <h1 className="text-2xl md:text-6xl font-bold">
                             New Properties

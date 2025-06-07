@@ -9,10 +9,10 @@ const ContactDetails = () => {
             <div className="h-auto  md:h-[60vh] lg:h-[80vh]">
                 {/* sub container */}
                 <div className="p-[10%]">
-                    <div className="flex justify-center items-center text-2xl opacity-35">YOUR DREAM HOUSE IS ONE STEP AWAY!</div>
+                    <div className="flex justify-center items-center text-2xl opacity-35" data-aos="fade-down">YOUR DREAM HOUSE IS ONE STEP AWAY!</div>
                     <div className="grid grid-cols-1 md:grid-cols-3">
                         {/* contact 1 */}
-                        <div className="flex flex-col p-2">
+                        <div className="flex flex-col p-2" data-aos="fade-down" data-aos-duration="1000">
                             <div className="flex justify-center items-center flex-col">
                                 <img src={phone} alt="" className="h-1/2" />
                                 <div>Call Us</div>
@@ -23,7 +23,7 @@ const ContactDetails = () => {
                             </div>
                         </div>
                         {/* contact 2 */}
-                            <div className="flex flex-col p-2">
+                            <div className="flex flex-col p-2" data-aos="fade-down" data-aos-duration="2000">
                             <div className="flex justify-center items-center flex-col">
                                 <img src={location} alt="" className="h-1/2" />
                                 <div>Finde Us</div>
@@ -33,8 +33,8 @@ const ContactDetails = () => {
                                 </div>
                             </div>
                         </div>
-                        {/* contact 1 */}
-                           <div className="flex flex-col p-2">
+                        {/* contact 3 */}
+                           <div className="flex flex-col p-2" data-aos="fade-down" data-aos-duration="3000">
                             <div className="flex justify-center items-center flex-col">
                                 <img src={email} alt="" className="h-1/2" />
                                 <div>Email Us</div>
