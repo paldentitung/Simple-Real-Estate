@@ -1,7 +1,11 @@
-
+import NewsHero from '../components/NewsHero'
+import NewsCard from '../components/NewsCard';
 const News = ()=>{
      return (
-<h1>news</h1>
+<>
+<NewsHero/>
+<NewsCard/>
+</>
      )
 }
 export default News;

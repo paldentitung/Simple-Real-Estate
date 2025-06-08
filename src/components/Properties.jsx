@@ -16,19 +16,19 @@ const Properties = () => {
                 {/* Cards */}
                 <div className="card-container grid grid-cols-1 md:grid-cols-2 lg:grid-cols-2 xl:grid-cols-4 gap-7 lg:gap-[15px]">
                     {/* Card 1 */}
-                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105" data-aos="fade-up" data-aos-duration="500">
+                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transform transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-1 cursor-pointer" data-aos="fade-up" data-aos-duration="500">
                         <div className="card-img w-full h-1/2 relative">
-                            <img src={image1} alt="" className="w-full h-full object-cover" />
+                            <img src={image1} alt="17081 Perry Street" className="w-full h-full object-cover" />
                             <span className="absolute bottom-0 bg-red-600 py-1 px-3 text-white">Buy</span>
                         </div>
                         <div className="card-info flex flex-col p-5 gap-1 h-1/2">
-                            <div className="text-2xl font-bold transition-all duration-200 hover:text-red-500 cursor-pointer">
+                            <div className="text-2xl font-bold transition-colors duration-200 hover:text-red-500">
                                 17081 Perry Street
                             </div>
                             <div className="text-[12px]">San Francisco, CA, USA</div>
                             <div className="text-[16px] flex-1">$850,000</div>
                             <div>
-                                <button className="bg-red-500 py-2 px-7 text-white text-[16px] rounded-[5px] hover:shadow-[rgb(225,225,225)] hover:shadow-2xl cursor-pointer">
+                                <button className="bg-red-500 py-2 px-7 text-white text-[16px] rounded-[5px] hover:shadow-lg cursor-pointer">
                                     Buy
                                 </button>
                             </div>
@@ -36,19 +36,19 @@ const Properties = () => {
                     </div>
 
                     {/* Card 2 */}
-                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105" data-aos="fade-up" data-aos-duration="1000">
+                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transform transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-1 cursor-pointer" data-aos="fade-up" data-aos-duration="1000">
                         <div className="card-img w-full h-1/2 relative">
-                            <img src={image2} alt="" className="w-full h-full object-cover" />
+                            <img src={image2} alt="52591 Union Boulevard" className="w-full h-full object-cover" />
                             <span className="absolute bottom-0 bg-red-600 py-1 px-3 text-white">Buy</span>
                         </div>
                         <div className="card-info flex flex-col p-5 gap-1 h-1/2">
-                            <div className="text-2xl font-bold transition-all duration-200 hover:text-red-500 cursor-pointer">
+                            <div className="text-2xl font-bold transition-colors duration-200 hover:text-red-500">
                                 52591 Union Boulevard
                             </div>
                             <div className="text-[12px]">San Francisco, CA, USA</div>
                             <div className="text-[16px] flex-1">$550,000</div>
                             <div>
-                                <button className="bg-red-500 py-2 px-7 text-white text-[16px] rounded-[5px] hover:shadow-[rgb(225,225,225)] hover:shadow-2xl cursor-pointer">
+                                <button className="bg-red-500 py-2 px-7 text-white text-[16px] rounded-[5px] hover:shadow-lg cursor-pointer">
                                     Buy
                                 </button>
                             </div>
@@ -56,19 +56,19 @@ const Properties = () => {
                     </div>
 
                     {/* Card 3 */}
-                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105" data-aos="fade-up" data-aos-duration="1500">
+                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transform transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-1 cursor-pointer" data-aos="fade-up" data-aos-duration="1500">
                         <div className="card-img w-full h-1/2 relative">
-                            <img src={image3} alt="" className="w-full h-full object-cover" />
+                            <img src={image3} alt="33234 Washington Avenue" className="w-full h-full object-cover" />
                             <span className="absolute bottom-0 bg-red-600 py-1 px-3 text-white">Buy</span>
                         </div>
                         <div className="card-info flex flex-col p-5 gap-1 h-1/2">
-                            <div className="text-2xl font-bold transition-all duration-200 hover:text-red-500 cursor-pointer">
+                            <div className="text-2xl font-bold transition-colors duration-200 hover:text-red-500">
                                 33234 Washington Avenue
                             </div>
                             <div className="text-[12px]">San Francisco, CA, USA</div>
                             <div className="text-[16px] flex-1">$770,000</div>
                             <div>
-                                <button className="bg-red-500 py-2 px-7 text-white text-[16px] rounded-[5px] hover:shadow-[rgb(225,225,225)] hover:shadow-2xl cursor-pointer">
+                                <button className="bg-red-500 py-2 px-7 text-white text-[16px] rounded-[5px] hover:shadow-lg cursor-pointer">
                                     Buy
                                 </button>
                             </div>
@@ -76,19 +76,19 @@ const Properties = () => {
                     </div>
 
                     {/* Card 4 */}
-                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transition-transform duration-200 hover:scale-105" data-aos="fade-up" data-aos-duration="2000">
+                    <div className="card flex flex-col w-full sm:w-[350px] min-h-[400px] gap-4 shadow-[rgba(225,225,225)] shadow-2xl transform transition-all duration-300 ease-in-out hover:shadow-lg hover:-translate-y-1 cursor-pointer" data-aos="fade-up" data-aos-duration="2000">
                         <div className="card-img w-full h-1/2 relative">
-                            <img src={image4} alt="" className="w-full h-full object-cover" />
+                            <img src={image4} alt="15066 Banks Street" className="w-full h-full object-cover" />
                             <span className="absolute bottom-0 bg-red-600 py-1 px-3 text-white">Buy</span>
                         </div>
                         <div className="card-info flex flex-col p-5 gap-1 h-1/2">
-                            <div className="text-2xl font-bold transition-all duration-200 hover:text-red-500 cursor-pointer">
+                            <div className="text-2xl font-bold transition-colors duration-200 hover:text-red-500">
                                 15066 Banks Street
                             </div>
                             <div className="text-[12px]">San Francisco, CA, USA</div>
                             <div className="text-[16px] flex-1">$700,000</div>
                             <div>
-                                <button className="bg-red-500 py-2 px-7 text-white text-[16px] rounded-[5px] hover:shadow-[rgb(225,225,225)] hover:shadow-2xl cursor-pointer">
+                                <button className="bg-red-500 py-2 px-7 text-white text-[16px] rounded-[5px] hover:shadow-lg cursor-pointer">
                                     Buy
                                 </button>
                             </div>

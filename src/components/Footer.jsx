@@ -9,8 +9,8 @@ const Footer = () => {
             {/* main container */}
             <div className="bg-cyan-900 h-auto text-white w-full ">
                 {/* sub-container */}
-                <div className="flex  justify-between items-center px-[5%] py-[10%]" data-aos="fade-down" data-aos-duration="1200">
-                    <div className="flex justify-around flex-col gap-7 md:flex-row w-full ">
+                <div className="flex  justify-between items-center px-5 py-[5%]" data-aos="fade-down" data-aos-duration="1200">
+                    <div className="flex justify-around flex-col gap-6 md:flex-row w-full ">
                         {/* content 1 */}
                         <div className="flex flex-col h-full" data-aos="fade-right" data-aos-duration="1000">
                             <div className="flex gap-3 mb-7">
