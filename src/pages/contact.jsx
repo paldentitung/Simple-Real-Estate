@@ -1,7 +1,10 @@
+import ContactHero from "../components/ContactHero";
+import ContactPageDetails from "../components/ContactPageDetails";
 const ContactPage = ()=>{
     return (
         <>
-        <h1>contact page</h1>
+        <ContactHero/>
+        <ContactPageDetails/>
         </>
     )
 }

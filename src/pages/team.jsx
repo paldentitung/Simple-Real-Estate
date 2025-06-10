@@ -1,6 +1,11 @@
+import TeamHero from "../components/TeamHero.jsx";
+import TeamMembers from "../components/TeamMember.jsx";
 const Team = ()=>{
     return(
-        <><h1>team</h1></>
+        <>
+        <TeamHero/>
+        <TeamMembers/>
+        </>
     )
 }
 export default Team;
