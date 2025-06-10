@@ -6,7 +6,7 @@ const Header = () => {
 
     return (
         <header
-            className="flex items-center justify-between px-6 text-white bg-[rgb(6,18,53)] h-[60px] relative"
+            className="flex items-center justify-between px-6 text-white bg-blue-950 h-[60px] relative"
             data-aos="fade-up"
             data-aos-duration="1000"
         >
